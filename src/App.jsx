@@ -35,12 +35,12 @@ function App() {
       <h1 className='text-2xl text-white text-center font-serif mb-3'>🔐Password Generator</h1>
         <div className='flex shadow rounded-lg overflow-hidden mb-4 bg-amber-50 text-gray-700'>
           <input type="text" value={password} placeholder='password' className='outline-none w-full py-1 px-3' readOnly ref={passwordRef}/>
-          <button onClick={copyPassword} className='outline-none bg-pink-700 text-white px-3 py-0.5 shrink-0 hover:bg-blue-700 '>copy</button>
+          <button onClick={copyPassword} className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 hover:bg-blue-800 '>copy</button>
         </div>
         <div className='flex flex-sm gap-x-2 mb-4'>
           <div className='flex items-center gap-x-1 mt-0.5'>
             <input type="range" name="range" min={6} max={32} value={length} className='cursor-pointer' onChange={(e)=>{setlength(e.target.value)}}/>
-            <label>Length:{length}</label>&nbsp;&nbsp;
+            <label>Length:{length}</label>
           </div>
           <div className='flex items-center gap-x-1 mt-0.5'>
             <input type="checkbox" name="checkbox" id='numInput' defaultChecked={numAllowed} onChange={()=>{setNumAllowed((prev)=>!prev)}} /> Numbers
