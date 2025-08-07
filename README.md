@@ -1,8 +1,8 @@
-# 🔐 Password Generator App
+# Password Generator App
 
 A sleek and simple password generator built with **React JS** and **Tailwind CSS**. Easily create strong and customizable passwords for your accounts.
 
-## ✨ Features
+## Features
 
 - Adjust password length (6–32 characters)
 - Toggle character types:
@@ -11,13 +11,13 @@ A sleek and simple password generator built with **React JS** and **Tailwind CSS
 - One-click password generation
 - Copy password to clipboard
 
-## 🛠️ Built With
+## Built With
 
 - React JS
 - Tailwind CSS
 - JavaScript (ES6+)
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repo
